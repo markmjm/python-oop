@@ -8,7 +8,7 @@ class User(Saveable):
     def login(self):
         return 'Logged in!'
 
-    def __reper__(self):
+    def __repr__(self):
         return f'<user {self.username}>'
 
     def to_dict(self):
